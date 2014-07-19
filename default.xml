@@ -313,4 +313,6 @@
 <!-- Android For ST-Ericsson SNDA S1 -->
   <project path="android" name="AndroidOpenSourceSnda/android" remote="github" revision="android-4.1.2_r2.1" />
 
+  <project path="android" name="AndroidOpenSourceSnda/android_modem_u8500" remote="github" revision="android-4.1.2_r2.1" />
+
 </manifest>
