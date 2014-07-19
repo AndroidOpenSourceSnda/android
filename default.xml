@@ -310,7 +310,7 @@
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="platform/system/vold" />
 
-<!--  -->
-  <project path="android" name="AndroidOpenSourceSnda/android" revision="refs/tags/android-4.1.2_r2.1" />
+<!-- Android For ST-Ericsson SNDA S1 -->
+  <project path="android" name="AndroidOpenSourceSnda/android" remote="github" revision="android-4.1.2_r2.1" />
 
 </manifest>
