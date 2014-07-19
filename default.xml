@@ -3,6 +3,13 @@
 
   <remote  name="aosp"
            fetch=".." />
+
+  <remote  name="github"
+           fetch=".." />
+
+ <remote  name="private"
+           fetch="ssh://git@github.com" />
+
   <default revision="refs/tags/android-4.1.2_r2.1"
            remote="aosp"
            sync-j="4" />
@@ -302,5 +309,8 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="platform/system/vold" />
+
+<!--  -->
+  <project path="android" name="AndroidOpenSourceSnda/android" revision="refs/heads/jb_mkt" />
 
 </manifest>
