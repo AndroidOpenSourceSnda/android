@@ -315,4 +315,6 @@
 
   <project path="modem/u8500" name="AndroidOpenSourceSnda/android_modem_u8500" remote="github" revision="android-4.1.2_r2.1" />
 
+  <project path="vendor/st-ericsson" name="AndroidOpenSourceSnda/android_vendor_st-ericsson" remote="github" revision="android-4.1.2_r2.1" />
+
 </manifest>
