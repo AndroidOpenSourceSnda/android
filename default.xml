@@ -306,14 +306,14 @@
   <project path="build"                          name="AndroidOpenSourceSnda/android_build"                  remote="github" revision="android-4.1.2_r2.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="external/alsa-lib"              name="AndroidOpenSourceSnda/external/alsa-lib"              remote="github" revision="android-4.1.2_r2.1" />
-  <project path="external/alsa-utils"            name="AndroidOpenSourceSnda/external/alsa-utils"            remote="github" revision="android-4.1.2_r2.1" />
-  <project path="external/netlink"               name="AndroidOpenSourceSnda/external/netlink"               remote="github" revision="android-4.1.2_r2.1" />
-  <project path="frameworks/av"                  name="AndroidOpenSourceSnda/frameworks/av"                  remote="github" revision="android-4.1.2_r2.1" />
-  <project path="frameworks/native"              name="AndroidOpenSourceSnda/frameworks/native"              remote="github" revision="android-4.1.2_r2.1" />
-  <project path="hardware/libhardware"           name="AndroidOpenSourceSnda/hardware/libhardware"           remote="github" revision="android-4.1.2_r2.1" />
-  <project path="hardware/libhardware_legacy"    name="AndroidOpenSourceSnda/hardware/libhardware_legacy"    remote="github" revision="android-4.1.2_r2.1" />
-  <project path="hardware/ril"                   name="AndroidOpenSourceSnda/hardware/ril"                   remote="github" revision="android-4.1.2_r2.1" />
+  <project path="external/alsa-lib"              name="AndroidOpenSourceSnda/external_alsa-lib"              remote="github" revision="android-4.1.2_r2.1" />
+  <project path="external/alsa-utils"            name="AndroidOpenSourceSnda/external_alsa-utils"            remote="github" revision="android-4.1.2_r2.1" />
+  <project path="external/netlink"               name="AndroidOpenSourceSnda/external_netlink"               remote="github" revision="android-4.1.2_r2.1" />
+  <project path="frameworks/av"                  name="AndroidOpenSourceSnda/frameworks_av"                  remote="github" revision="android-4.1.2_r2.1" />
+  <project path="frameworks/native"              name="AndroidOpenSourceSnda/frameworks_native"              remote="github" revision="android-4.1.2_r2.1" />
+  <project path="hardware/libhardware"           name="AndroidOpenSourceSnda/hardware_libhardware"           remote="github" revision="android-4.1.2_r2.1" />
+  <project path="hardware/libhardware_legacy"    name="AndroidOpenSourceSnda/hardware_libhardware_legacy"    remote="github" revision="android-4.1.2_r2.1" />
+  <project path="hardware/ril"                   name="AndroidOpenSourceSnda/hardware_ril"                   remote="github" revision="android-4.1.2_r2.1" />
   <project path="kernel/snda/u8500"              name="AndroidOpenSourceSnda/android_kernel_snda_u8500"      remote="github" revision="jellybean" />
   <project path="modem/u8500"                    name="AndroidOpenSourceSnda/android_modem_u8500"            remote="github" revision="android-4.1.2_r2.1" />
   <project path="system/core"                    name="AndroidOpenSourceSnda/android_system_core"            remote="github" revision="android-4.1.2_r2.1" />
