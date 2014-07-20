@@ -302,21 +302,21 @@
   <project path="system/vold" name="platform/system/vold" />
 
 <!-- Android For ST-Ericsson SNDA S1 -->
-  <project path="android"                        name="AndroidOpenSourceSnda/android"                        remote="github" revision="android-4.1.2_r2.1" />
-  <project path="build"                          name="AndroidOpenSourceSnda/android_build"                  remote="github" revision="android-4.1.2_r2.1" >
+  <project path="android"                        name="AndroidOpenSourceSnda/android"                                remote="github" revision="android-4.1.2_r2.1" />
+  <project path="build"                          name="AndroidOpenSourceSnda/android_build"                          remote="github" revision="android-4.1.2_r2.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="external/alsa-lib"              name="AndroidOpenSourceSnda/external_alsa-lib"              remote="github" revision="android-4.1.2_r2.1" />
-  <project path="external/alsa-utils"            name="AndroidOpenSourceSnda/external_alsa-utils"            remote="github" revision="android-4.1.2_r2.1" />
-  <project path="external/netlink"               name="AndroidOpenSourceSnda/external_netlink"               remote="github" revision="android-4.1.2_r2.1" />
-  <project path="frameworks/av"                  name="AndroidOpenSourceSnda/frameworks_av"                  remote="github" revision="android-4.1.2_r2.1" />
-  <project path="frameworks/native"              name="AndroidOpenSourceSnda/frameworks_native"              remote="github" revision="android-4.1.2_r2.1" />
-  <project path="hardware/libhardware"           name="AndroidOpenSourceSnda/hardware_libhardware"           remote="github" revision="android-4.1.2_r2.1" />
-  <project path="hardware/libhardware_legacy"    name="AndroidOpenSourceSnda/hardware_libhardware_legacy"    remote="github" revision="android-4.1.2_r2.1" />
-  <project path="hardware/ril"                   name="AndroidOpenSourceSnda/hardware_ril"                   remote="github" revision="android-4.1.2_r2.1" />
-  <project path="kernel/snda/u8500"              name="AndroidOpenSourceSnda/android_kernel_snda_u8500"      remote="github" revision="jellybean" />
-  <project path="modem/u8500"                    name="AndroidOpenSourceSnda/android_modem_u8500"            remote="github" revision="android-4.1.2_r2.1" />
-  <project path="system/core"                    name="AndroidOpenSourceSnda/android_system_core"            remote="github" revision="android-4.1.2_r2.1" />
-  <project path="vendor/st-ericsson"             name="AndroidOpenSourceSnda/android_vendor_st-ericsson"     remote="github" revision="android-4.1.2_r2.1" />
+  <project path="external/alsa-lib"              name="AndroidOpenSourceSnda/android_external_alsa-lib"              remote="github" revision="android-4.1.2_r2.1" />
+  <project path="external/alsa-utils"            name="AndroidOpenSourceSnda/android_external_alsa-utils"            remote="github" revision="android-4.1.2_r2.1" />
+  <project path="external/netlink"               name="AndroidOpenSourceSnda/android_external_netlink"               remote="github" revision="android-4.1.2_r2.1" />
+  <project path="frameworks/av"                  name="AndroidOpenSourceSnda/android_frameworks_av"                  remote="github" revision="android-4.1.2_r2.1" />
+  <project path="frameworks/native"              name="AndroidOpenSourceSnda/android_frameworks_native"              remote="github" revision="android-4.1.2_r2.1" />
+  <project path="hardware/libhardware"           name="AndroidOpenSourceSnda/android_hardware_libhardware"           remote="github" revision="android-4.1.2_r2.1" />
+  <project path="hardware/libhardware_legacy"    name="AndroidOpenSourceSnda/android_hardware_libhardware_legacy"    remote="github" revision="android-4.1.2_r2.1" />
+  <project path="hardware/ril"                   name="AndroidOpenSourceSnda/android_hardware_ril"                   remote="github" revision="android-4.1.2_r2.1" />
+  <project path="kernel/snda/u8500"              name="AndroidOpenSourceSnda/android_kernel_snda_u8500"              remote="github" revision="jellybean" />
+  <project path="modem/u8500"                    name="AndroidOpenSourceSnda/android_modem_u8500"                    remote="github" revision="android-4.1.2_r2.1" />
+  <project path="system/core"                    name="AndroidOpenSourceSnda/android_system_core"                    remote="github" revision="android-4.1.2_r2.1" />
+  <project path="vendor/st-ericsson"             name="AndroidOpenSourceSnda/android_vendor_st-ericsson"             remote="github" revision="android-4.1.2_r2.1" />
 
 </manifest>
