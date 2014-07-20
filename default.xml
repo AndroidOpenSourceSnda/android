@@ -14,9 +14,6 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="platform/bionic" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
@@ -312,6 +309,10 @@
 
 <!-- Android For ST-Ericsson SNDA S1 -->
   <project path="android" name="AndroidOpenSourceSnda/android" remote="github" revision="android-4.1.2_r2.1" />
+
+  <project path="build" name="AndroidOpenSourceSnda/android_build" remote="github" revision="android-4.1.2_r2.1" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
 
   <project path="kernel/snda/u8500" name="AndroidOpenSourceSnda/android_kernel_snda_u8500" remote="github" revision="jellybean" />
 
