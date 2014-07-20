@@ -184,7 +184,6 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="platform/frameworks/av" />
   <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
@@ -193,7 +192,6 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="platform/frameworks/native" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
@@ -206,12 +204,9 @@
   <project path="gdk" name="platform/gdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
-  <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
@@ -307,16 +302,21 @@
   <project path="system/vold" name="platform/system/vold" />
 
 <!-- Android For ST-Ericsson SNDA S1 -->
-  <project path="android" name="AndroidOpenSourceSnda/android" remote="github" revision="android-4.1.2_r2.1" />
-  <project path="build" name="AndroidOpenSourceSnda/android_build" remote="github" revision="android-4.1.2_r2.1" >
+  <project path="android"                        name="AndroidOpenSourceSnda/android"                        remote="github" revision="android-4.1.2_r2.1" />
+  <project path="build"                          name="AndroidOpenSourceSnda/android_build"                  remote="github" revision="android-4.1.2_r2.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="external/alsa-lib" name="AndroidOpenSourceSnda/external/alsa-lib" remote="github" revision="android-4.1.2_r2.1" />
-  <project path="external/alsa-utils" name="AndroidOpenSourceSnda/external/alsa-utils" remote="github" revision="android-4.1.2_r2.1" />
-  <project path="external/netlink" name="AndroidOpenSourceSnda/external/netlink" remote="github" revision="android-4.1.2_r2.1" />
-  <project path="kernel/snda/u8500" name="AndroidOpenSourceSnda/android_kernel_snda_u8500" remote="github" revision="jellybean" />
-  <project path="modem/u8500" name="AndroidOpenSourceSnda/android_modem_u8500" remote="github" revision="android-4.1.2_r2.1" />
-  <project path="system/core" name="AndroidOpenSourceSnda/android_system_core" remote="github" revision="android-4.1.2_r2.1" />
-  <project path="vendor/st-ericsson" name="AndroidOpenSourceSnda/android_vendor_st-ericsson" remote="github" revision="android-4.1.2_r2.1" />
+  <project path="external/alsa-lib"              name="AndroidOpenSourceSnda/external/alsa-lib"              remote="github" revision="android-4.1.2_r2.1" />
+  <project path="external/alsa-utils"            name="AndroidOpenSourceSnda/external/alsa-utils"            remote="github" revision="android-4.1.2_r2.1" />
+  <project path="external/netlink"               name="AndroidOpenSourceSnda/external/netlink"               remote="github" revision="android-4.1.2_r2.1" />
+  <project path="frameworks/av"                  name="AndroidOpenSourceSnda/frameworks/av"                  remote="github" revision="android-4.1.2_r2.1" />
+  <project path="frameworks/native"              name="AndroidOpenSourceSnda/frameworks/native"              remote="github" revision="android-4.1.2_r2.1" />
+  <project path="hardware/libhardware"           name="AndroidOpenSourceSnda/hardware/libhardware"           remote="github" revision="android-4.1.2_r2.1" />
+  <project path="hardware/libhardware_legacy"    name="AndroidOpenSourceSnda/hardware/libhardware_legacy"    remote="github" revision="android-4.1.2_r2.1" />
+  <project path="hardware/ril"                   name="AndroidOpenSourceSnda/hardware/ril"                   remote="github" revision="android-4.1.2_r2.1" />
+  <project path="kernel/snda/u8500"              name="AndroidOpenSourceSnda/android_kernel_snda_u8500"      remote="github" revision="jellybean" />
+  <project path="modem/u8500"                    name="AndroidOpenSourceSnda/android_modem_u8500"            remote="github" revision="android-4.1.2_r2.1" />
+  <project path="system/core"                    name="AndroidOpenSourceSnda/android_system_core"            remote="github" revision="android-4.1.2_r2.1" />
+  <project path="vendor/st-ericsson"             name="AndroidOpenSourceSnda/android_vendor_st-ericsson"     remote="github" revision="android-4.1.2_r2.1" />
 
 </manifest>
