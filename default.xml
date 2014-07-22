@@ -308,6 +308,7 @@
   </project>
   <project path="external/alsa-lib"              name="AndroidOpenSourceSnda/android_external_alsa-lib"              remote="github" revision="android-4.1.2_r2.1" />
   <project path="external/alsa-utils"            name="AndroidOpenSourceSnda/android_external_alsa-utils"            remote="github" revision="android-4.1.2_r2.1" />
+  <project path="external/crda"                  name="AndroidOpenSourceSnda/android_external_crda"                  remote="github" revision="android-4.1.2_r2.1" />
   <project path="external/netlink"               name="AndroidOpenSourceSnda/android_external_netlink"               remote="github" revision="android-4.1.2_r2.1" />
   <project path="frameworks/av"                  name="AndroidOpenSourceSnda/android_frameworks_av"                  remote="github" revision="android-4.1.2_r2.1" />
   <project path="frameworks/native"              name="AndroidOpenSourceSnda/android_frameworks_native"              remote="github" revision="android-4.1.2_r2.1" />
