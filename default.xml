@@ -321,6 +321,8 @@
   <project path="modem/u8500"                    name="AndroidOpenSourceSnda/android_modem_u8500"                    remote="github" revision="android-4.1.2_r2.1" />
   <project path="packages/apps/Superuser"        name="AndroidOpenSourceSnda/android_packages_apps_Superuser"        remote="github" revision="android-4.1.2_r2.1" />
   <project path="system/core"                    name="AndroidOpenSourceSnda/android_system_core"                    remote="github" revision="android-4.1.2_r2.1" />
+  <project path="system/extras"                  name="AndroidOpenSourceSnda/android_system_extras"                  remote="github" revision="android-4.1.2_r2.1" />
+  <project path="system/su"                      name="CyanogenMod/android_system_su"                                remote="github" revision="jellybean" />
   <project path="vendor/st-ericsson"             name="AndroidOpenSourceSnda/android_vendor_st-ericsson"             remote="github" revision="android-4.1.2_r2.1" />
 
 </manifest>
