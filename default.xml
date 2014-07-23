@@ -294,11 +294,9 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
-  <project path="system/vold" name="platform/system/vold" />
 
 <!-- Android For ST-Ericsson SNDA S1 -->
   <project path="android"                        name="AndroidOpenSourceSnda/android"                                remote="github" revision="android-4.1.2_r2.1" />
@@ -323,6 +321,7 @@
   <project path="system/core"                    name="AndroidOpenSourceSnda/android_system_core"                    remote="github" revision="android-4.1.2_r2.1" />
   <project path="system/extras"                  name="AndroidOpenSourceSnda/android_system_extras"                  remote="github" revision="android-4.1.2_r2.1" />
   <project path="system/su"                      name="CyanogenMod/android_system_su"                                remote="github" revision="jellybean" />
+  <project path="system/vold"                    name="CyanogenMod/system_vold"                                      remote="github" revision="jellybean" />
   <project path="vendor/st-ericsson"             name="AndroidOpenSourceSnda/android_vendor_st-ericsson"             remote="github" revision="android-4.1.2_r2.1" />
 
 </manifest>
