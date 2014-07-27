@@ -304,7 +304,7 @@
   <project path="packages/apps/Superuser"        name="CyanogenMod/android_packages_apps_Superuser"                  remote="github" revision="jellybean" />
   <project path="packages/apps/Torch"            name="CyanogenMod/android_packages_apps_Torch"                      remote="github" revision="jellybean" />
   <project path="system/su"                      name="CyanogenMod/android_system_su"                                remote="github" revision="jellybean" />
-  <project path="system/vold"                    name="CyanogenMod/system_vold"                                      remote="github" revision="jellybean" />
+  <project path="system/vold"                    name="CyanogenMod/android_system_vold"                                      remote="github" revision="jellybean" />
 
 <!-- Android For ST-Ericsson SNDA S1 -->
   <project path="android"                        name="AndroidOpenSourceSnda/android"                                remote="github" revision="android-4.1.2_r2.1" />
