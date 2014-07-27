@@ -293,7 +293,6 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/media" name="platform/system/media" />
-  <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
 
 <!-- CyanogenMod -->
@@ -327,6 +326,7 @@
   <project path="modem/u8500"                    name="AndroidOpenSourceSnda/android_modem_u8500"                    remote="github" revision="android-4.1.2_r2.1" />
   <project path="system/core"                    name="AndroidOpenSourceSnda/android_system_core"                    remote="github" revision="android-4.1.2_r2.1" />
   <project path="system/extras"                  name="AndroidOpenSourceSnda/android_system_extras"                  remote="github" revision="android-4.1.2_r2.1" />
+  <project path="system/netd"                    name="AndroidOpenSourceSnda/android_system_netd"                    remote="github" revision="android-4.1.2_r2.1" />
   <project path="vendor/st-ericsson"             name="AndroidOpenSourceSnda/android_vendor_st-ericsson"             remote="github" revision="android-4.1.2_r2.1" />
 
 </manifest>
