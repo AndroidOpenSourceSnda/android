@@ -296,12 +296,12 @@
   <project path="system/security" name="platform/system/security" />
 
 <!-- CyanogenMod -->
+  <project path="bootable/recovery"              name="CyanogenMod/android_bootable_recovery"                        remote="github" revision="jellybean" />
   <project path="external/bash"                  name="CyanogenMod/android_external_bash"                            remote="github" revision="jellybean" />
   <project path="external/busybox"               name="CyanogenMod/android_external_busybox"                         remote="github" revision="jellybean" />
   <project path="external/libncurses"            name="CyanogenMod/android_external_libncurses"                      remote="github" revision="jellybean" />
   <project path="external/nano"                  name="CyanogenMod/android_external_nano"                            remote="github" revision="jellybean" />
   <project path="packages/apps/Superuser"        name="CyanogenMod/android_packages_apps_Superuser"                  remote="github" revision="jellybean" />
-  <project path="packages/apps/Torch"            name="CyanogenMod/android_packages_apps_Torch"                      remote="github" revision="jellybean" />
   <project path="system/su"                      name="CyanogenMod/android_system_su"                                remote="github" revision="jellybean" />
   <project path="system/vold"                    name="CyanogenMod/android_system_vold"                                      remote="github" revision="jellybean" />
 
