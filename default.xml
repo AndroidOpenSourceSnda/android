@@ -317,6 +317,7 @@
   <project path="external/ppp"                   name="AndroidOpenSourceSnda/android_external_ppp"                   remote="github" revision="android-4.1.2_r2.1" />
   <project path="external/wpa_supplicant_8"      name="AndroidOpenSourceSnda/android_external_wpa_supplicant_8"      remote="github" revision="android-4.1.2_r2.1" />
   <project path="frameworks/av"                  name="AndroidOpenSourceSnda/android_frameworks_av"                  remote="github" revision="android-4.1.2_r2.1" />
+  <project path="frameworks/base"                name="AndroidOpenSourceSnda/android_frameworks_base"                remote="github" revision="android-4.1.2_r2.1" />
   <project path="frameworks/native"              name="AndroidOpenSourceSnda/android_frameworks_native"              remote="github" revision="android-4.1.2_r2.1" />
   <project path="hardware/libhardware"           name="AndroidOpenSourceSnda/android_hardware_libhardware"           remote="github" revision="android-4.1.2_r2.1" />
   <project path="hardware/libhardware_legacy"    name="AndroidOpenSourceSnda/android_hardware_libhardware_legacy"    remote="github" revision="android-4.1.2_r2.1" />
