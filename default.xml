@@ -321,7 +321,6 @@
   <project path="hardware/libhardware"           name="AndroidOpenSourceSnda/android_hardware_libhardware"           remote="github" revision="android-4.1.2_r2.1" />
   <project path="hardware/libhardware_legacy"    name="AndroidOpenSourceSnda/android_hardware_libhardware_legacy"    remote="github" revision="android-4.1.2_r2.1" />
   <project path="hardware/ril"                   name="AndroidOpenSourceSnda/android_hardware_ril"                   remote="github" revision="android-4.1.2_r2.1" />
-  <project path="modem/u8500"                    name="AndroidOpenSourceSnda/android_modem_u8500"                    remote="github" revision="android-4.1.2_r2.1" />
   <project path="system/core"                    name="AndroidOpenSourceSnda/android_system_core"                    remote="github" revision="android-4.1.2_r2.1" />
   <project path="system/extras"                  name="AndroidOpenSourceSnda/android_system_extras"                  remote="github" revision="android-4.1.2_r2.1" />
   <project path="system/netd"                    name="AndroidOpenSourceSnda/android_system_netd"                    remote="github" revision="android-4.1.2_r2.1" />
